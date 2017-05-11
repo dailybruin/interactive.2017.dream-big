@@ -101,20 +101,21 @@ p{
 	.pullquote {
 		width: 100%;
 		display: block;
-		margin: 30px 0px 50px 0px;
+		margin: 30px 0px 50px 0px !important;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
 	}
 	.row {
 		padding: 20px;
 	}
+
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em){
 	.pullquote {
 		width: 100%;
 		display: block;
-		margin: 30px 0px 50px 0px;
+		margin: 30px 0px 50px 0px !important;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
 	}
@@ -125,6 +126,7 @@ p{
 	.row {
 		padding: 40px;
 	}
+
 }
 
 #text_near_images {
