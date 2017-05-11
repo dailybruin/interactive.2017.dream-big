@@ -45,10 +45,22 @@ p{
 	color: white;
 }
 
-.headerimg {
-    min-height: 900px;
-    background: transparent;
+.layer {
+	z-index: -999;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+}
+
+.headerimg {
+    min-height: 100vh;
+	max-width: 1000px;
+    background: transparent;
+	display: block;
+	margin: auto;
 }
 
 .headerimg h1 {
