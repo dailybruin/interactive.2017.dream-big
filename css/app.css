@@ -21,7 +21,7 @@ p{
 .parallax-window {
     min-height: 900px;
     height: auto;
-    background: transparent;
+    /*background: transparent;*/
     width: 100%;
 }
 
@@ -213,7 +213,7 @@ full_photo{
 /* musselman */
 
 .main-page-top{
-  font-family: 'Droid Serif', Serif !important;
+  font-family: 'Georgia W01 Regular', Georgia !important;
   font-weight: bold;
   position: absolute;
   bottom: 0;
@@ -228,10 +228,11 @@ full_photo{
   color: black;
 }
 
-.main-page-top h1{
+.main-page-top .story-title{
 	font-size: 5.0vmax;
 }
 
-.main-page-top p{
+.main-page-top .story-byline{
 	font-size: 1.6vmax;
+	font-style: italic;
 }
