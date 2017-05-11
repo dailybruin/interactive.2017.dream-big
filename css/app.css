@@ -219,13 +219,11 @@ full_photo{
   bottom: 0;
   left: 0;
   text-align: center;
-  border: 1px solid white;
   padding: 10px;
   margin: 0px 30px 10%;
   display: block;
   min-width: 300px;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: black;
+  color: white;
 }
 
 .main-page-top .story-title{
