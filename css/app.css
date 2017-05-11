@@ -18,10 +18,10 @@ p{
     padding-right: 10px;
     color: #2199e8;
 }
+
 .parallax-window {
     min-height: 900px;
-    height: auto;
-    /*background: transparent;*/
+    background: transparent;
     width: 100%;
 }
 
