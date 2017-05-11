@@ -22,7 +22,7 @@ p{
 .parallax-window {
     min-height: 900px;
     background: transparent;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .top {
@@ -227,10 +227,12 @@ full_photo{
 }
 
 .main-page-top .story-title{
+	font-size: 64px;
 	font-size: 5.0vmax;
 }
 
 .main-page-top .story-byline{
+	font-size: 18px;
 	font-size: 1.6vmax;
 	font-style: italic;
 }
